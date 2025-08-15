@@ -18,7 +18,7 @@ symbol = "SOLUSDT"
 product_type = "usdt-futures"
 granularities = ["3m", "5m", "1m"]
 candlenum = 100
-order_amount_usd = float("1000")
+order_amount_usd = float("6000")  # 1000 USDT margin * 6x leverage = 6000 USDT position size
 check_interval_sec = 30
 price_change_threshold = float("2")  # Adjusted for Solana price range
 TP_DELTA = SL_DELTA = 5  # 고정 이익 목표 (Solana price range)
